@@ -1,7 +1,6 @@
 import { BufferAttribute, BufferGeometry, Material, Matrix4, Mesh, Object3D } from 'three';
 // TODO: Remove ts ignore comments when @types/three gets updated
 // @ts-ignore
-import { mergeBufferGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils';
 import {
     FlatMesh,
     IfcGeometry,

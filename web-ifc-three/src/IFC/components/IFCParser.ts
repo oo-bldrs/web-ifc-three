@@ -18,7 +18,7 @@ import {
     BufferAttribute,
     Mesh
 } from 'three';
-import { mergeBufferGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils';
+import { mergeBufferGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { BvhManager } from './BvhManager';
 import { IFCModel } from './IFCModel';
 
