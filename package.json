@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "setup-repo": "npm i -g rollup && npm i -g cpy-cli",
-    "build": "cd ./web-ifc-three && npm run build && cd .. && cd ./example && npm run build",
+    "build": "cd ./web-ifc-three && npm run build && node build.esb.js && cd .. && cd ./example && npm run build",
     "publish-repo": "cd ./web-ifc-three && npm run publish-repo",
     "test": "jest"
   },
